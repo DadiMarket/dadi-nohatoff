@@ -1,15 +1,11 @@
-fx_version 'cerulean'
-games { 'rdr3', 'gta5' }
+fx_version "cerulean"
+game "gta5"
+author "Dadi Market"
+description "The best system for no hat on your server's players."
+version "1.0.0" 
+lua54 "yes"
 
 client_scripts {
-    'client.lua'
+    'client/*.lua',
+    'config/config.lua'
 }
-
-server_scripts {
-    'server.lua'
-}
-
-fivem_checker 'yes'
-github 'https://github.com/BxRayven/nohatfalloff'
-version '2.0.0'
-name '^2No Hat Fall Off'

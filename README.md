@@ -35,7 +35,7 @@ Go to `server.cfg` file and put this line
 
 ## Badges
 
-[![Safe Creative License](https://img.shields.io/badge/License-SafeCreative-red.svg)](LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
 
 
 ## Support
